@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "/Users/cameron/.pyenv/versions/3.9.1/bin/python",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--django-settings-module=levelup.settings",
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Level up DB",
+            "database": "db.sqlite3"
+        }
+    ],
+    
+}
